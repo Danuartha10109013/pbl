@@ -19,7 +19,13 @@ class News_model extends CI_Model
 
     public function GetBeritaId($tableName, $data)
     {
-        $res = $this->db->get_where('berita', ['id_berita' => $data]);
+        $res = $this->db->get_where($tableName, ['id_berita' => $data]);
+        return $res->row_array();
+    }
+
+    public function GetWhere($tableName, $data)
+    {
+        $res = $this->db->get_where($tableName, $data);
         return $res->row_array();
     }
 

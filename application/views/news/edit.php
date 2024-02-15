@@ -21,8 +21,8 @@
                 <input type="date" class="form-control" id="date" name="date" placeholder="Tanggal Berita" value="<?= $news_data['date_berita']; ?>">
             </div>
             <div class="mb-3">
-                <label for="image" class="form-label">Thumbnail</label>
-                <input type="file" class="form-control" id="image" name="image" placeholder="Thumbnail Berita" value="<?= $news_data['thumbnail_berita']; ?>">
+                <label for="thumbnail" class="form-label">Thumbnail</label>
+                <input type="file" class="form-control" id="thumbnail" name="thumbnail" placeholder="Thumbnail Berita" value="<?= $news_data['thumbnail_berita']; ?>">
             </div>
             <div class="mb-3">
                 <label for="slug" class="form-label">Slug</label>

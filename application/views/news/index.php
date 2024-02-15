@@ -25,7 +25,7 @@
                                     <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>
                                 </header>
                                 <!-- Preview image figure-->
-                                <figure class="mb-4"><img class="img-fluid rounded" src="asset/img/<?= $news['thumbnail_berita'] ?>" alt="thumbnail_berita" /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" src="./uploads/news/<?= $news['thumbnail_berita'] ?>" alt="thumbnail_berita" /></figure>
                                 <!-- Post content-->
                                 <section class="mb-5">
                                     <p class="fs-5 mb-4"><?= $news['content_berita'] ?></p>
