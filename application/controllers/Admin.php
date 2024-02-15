@@ -43,6 +43,7 @@ class Admin extends CI_Controller
 	}
 	public function news()
 	{
+		$this->load->model('News_model');
 		$data['title'] = 'Administrator News';
 		$this->load->view('templatee/header', $data);
 		$this->load->view('templatee/sidebar');
